@@ -1,0 +1,78 @@
+/*
+COLORS
+Name: Verdigris
+Hex: #4EACB8
+
+Name: Blue Sapphire
+Hex: #07607B
+
+Name: Medium Aquamarine
+Hex: #6CD1AF
+
+Name: Magic Mint
+Hex: #B8E7CA
+
+Name: Antique White
+Hex: #F6F1D2
+*/
+
+html {
+    background-color: #008DB9;
+    color: #F6F1D2;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    margin-top: 35px;
+}
+
+nav {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 30px;
+    margin: 0 auto;
+    font-size: 150%;
+
+    display: flex;
+    justify-content: center;
+
+    background-image: linear-gradient(#6CD1AF 40%, #B8E7CA 75%, #F6F1D2 100%);
+    
+    box-shadow: 0 0 12px 15px #F6F1D2, inset 0 -7px 30px -7px #F6F1D2;
+
+}
+
+nav > a {
+    padding: 5px;
+}
+
+.island {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    word-break: normal;
+    color: black;
+    text-align: center;
+
+    border-color: #F6F1D2;
+    background-image: radial-gradient(circle, #6CD1AF 40%, #B8E7CA 60%, #F6F1D2 90%);
+    box-shadow: 0 0 12px 10px #F6F1D2, inset 0 0 5px 5px #B8E7CA;
+
+    user-select: none;
+
+}
+
+#water {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.code-box {
+    user-select: text;
+}
